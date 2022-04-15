@@ -1,0 +1,30 @@
+$white-color: white;
+$white-color-2: rgb(245,245,245);
+
+$black-color: black;
+
+$gray-color-1: rgb(123, 125, 125);
+$gray-color-2: rgb(220,220,220);
+
+$gray-color-10: rgb(28, 40, 51);
+$gray-color-11: rgb(23, 32, 42);
+
+
+//sidebar 
+$sidebar-bg-color: $white-color-2;
+$sidebar-menu-items-bg-color: $white-color-2;
+$sidebar-dropdown-bg-color: $gray-color-2;
+
+$sidebar-width: 270px;
+$sidebar-link-font-size: .9rem;
+
+//top-nav
+$top-nav-height: 60px;
+$top-nav-bg-color: $gray-color-11;
+
+//form elements
+$element-default-height: 2.5rem;
+$button-default-bg: rgb(93, 109, 126);
+
+$input-min-height: $element-default-height;
+$button-min-height: $element-default-height;

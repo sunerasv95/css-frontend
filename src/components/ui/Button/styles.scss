@@ -1,0 +1,53 @@
+$button-min-height: 2.5rem;
+$button-default-bg: rgb(108,117,125);
+$button-primary-bg: rgb(13,110,253);
+$button-warning-bg: rgb(255,193,7);
+$button-danger-bg: red;
+$button-padding: .325rem .625rem;
+
+.cs_btn {
+    margin: .3rem 0;
+    padding: $button-padding;
+    min-height: $button-min-height;
+    width: auto;
+    border: 0px;
+    border-radius: .3rem;
+    font-size: 14px;
+
+    &:hover{
+        opacity: .925;
+    }
+
+    &:disabled{
+        opacity: .7;
+    }
+}
+
+.cs_btn_block {
+    width: 100%;
+}
+
+.cs_btn_small{
+    min-height: 1.725rem;
+    font-size: 12px;
+}
+
+.cs_default{
+    background-color: $button-default-bg;
+    color: #ffffff;
+}
+
+.cs_primary{
+    background-color: $button-primary-bg;
+    color: #ffffff;
+}
+
+.cs_warning{
+    background-color: $button-warning-bg;
+    color: #000000;
+}
+
+.cs_danger{
+    background-color: $button-danger-bg;
+    color: #ffffff;
+}

@@ -1,0 +1,39 @@
+.cs_accordion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: .5rem .725rem;
+    cursor: pointer;
+    transition: .4s;
+    border-radius: .3rem;
+    border: .1rem gray solid;    
+
+    &_panel{
+        border-radius: .3rem;
+        border: .1rem gray solid;    
+        padding: .5rem .725rem;
+        overflow-y: hidden;
+        display: none;
+        //max-height: 0;
+        transition: max-height 0.2s ease-out;
+
+        &.toggle{
+            display: block;
+            //max-height: 500px;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+
+            li{
+                margin: .125rem 0;
+            }
+        }
+    }
+
+
+   
+}

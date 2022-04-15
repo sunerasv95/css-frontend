@@ -1,0 +1,29 @@
+$cell-padding: .1rem .425rem;
+$cell-border: 1px gray solid; 
+
+.cs_tabel_wrapper{
+    padding: .3rem 0;
+
+    table {
+        border: $cell-border;
+        width: 100%; 
+
+        th{
+            padding: $cell-padding;
+            font-size: .825rem;
+            font-weight: 800;
+            border: 1px black solid;
+            text-align: 'left';
+            color: "black"
+        }
+
+        td {
+            padding: $cell-padding;
+            font-size: .75rem;
+            font-weight: normal;
+            border: $cell-border;
+
+        }
+    }
+}
+

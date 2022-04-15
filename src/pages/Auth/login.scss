@@ -1,0 +1,40 @@
+@import "./../../constants.scss";
+
+.LoginContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: $white-color-2;
+
+    p {
+        font-size: 28px;
+        font-weight: 900;
+        margin: .1rem 0;
+    }
+    
+}
+
+.LoginForm{
+    min-width: 300px;
+}
+
+.FormErrorContainer{
+    padding: .525rem 0 0;
+
+    span{
+        font-size: .925rem;
+        color: red;
+    }
+}
+
+.LoginFormContainer{
+    width: 25%;
+    background-color: rgb(213, 216, 220);
+    padding: 2rem 1.5rem;
+    border-radius: 1rem;
+}
+

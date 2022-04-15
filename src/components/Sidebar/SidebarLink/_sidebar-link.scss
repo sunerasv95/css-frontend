@@ -1,0 +1,31 @@
+@import './../../../constants.scss';
+
+.SidebarLink{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    margin: 0.5rem 0;
+    text-decoration: none;
+    color: black;
+    background-color: $sidebar-menu-items-bg-color;
+    cursor: pointer;
+    // -webkit-box-shadow: 2px 5px 6px 1px rgba(220,220,220,0.94); 
+    // box-shadow: 2px 5px 6px 1px rgba(220,220,220,0.94);
+
+    :link, 
+    :visited{
+        background-color: transparent;
+        color: aliceblue;
+    }
+    
+    i{
+        //margin: 0 1rem 0;
+    }
+
+    span{
+        font-size: $sidebar-link-font-size;
+        font-weight: normal;
+        margin-left: 0.6rem;
+    }
+}

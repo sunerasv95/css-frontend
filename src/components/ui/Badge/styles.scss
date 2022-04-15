@@ -1,0 +1,37 @@
+$button-default-bg: rgb(108,117,125);
+$button-primary-bg: rgb(13,110,253);
+$button-warning-bg: rgb(255,193,7);
+$button-danger-bg: rgb(220,53,69);
+$button-success-bg: rgb(40,167,69);
+
+.cs_badge{
+    font-size: 12px;
+    font-weight: 600;
+    padding: .1rem .3rem;
+    border-radius: 5px;
+}
+
+.cs_default{
+    background-color: $button-default-bg;
+    color: #ffffff;
+}
+
+.cs_primary{
+    background-color: $button-primary-bg;
+    color: #ffffff;
+}
+
+.cs_warning{
+    background-color: $button-warning-bg;
+    color: #000000;
+}
+
+.cs_danger{
+    background-color: $button-danger-bg;
+    color: #ffffff;
+}
+
+.cs_success{
+    background-color: $button-success-bg;
+    color: #ffffff;
+}

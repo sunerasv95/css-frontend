@@ -1,0 +1,20 @@
+@import './../../../constants.scss';
+
+.dropdownCollapse{
+    padding: 0.2rem 1rem;
+}
+
+.subNavList{
+    display: flex;
+    flex-direction: column;
+}
+
+.subNavLink{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0.2rem 0;
+}  
+
+.hide{
+    display: none;
+}
